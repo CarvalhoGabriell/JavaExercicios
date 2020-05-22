@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NanoCorse {
+public class NanoCourses {
 
     public static void main(String[] args) {
 
@@ -47,6 +47,10 @@ public class NanoCorse {
         String tipo = "A linguagem Ruby é a mais curiosa dentro das outras.";
         int posicao2 = tipo.indexOf("Ruby"); // se passarmos uma palavra completa ele irá pegar o inicio da sua ocorrencia.
         System.out.println(posicao2);
+
+        String nome2 = "Gabriel Vagabundo";
+        String nomeNew = nome2.substring(2,11);
+        System.out.println(nomeNew);  // o metodo substring pega o valor do index do inicio que vc quer que comece , até a posição final
 
 
     }
