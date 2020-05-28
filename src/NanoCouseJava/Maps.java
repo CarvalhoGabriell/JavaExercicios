@@ -1,3 +1,5 @@
+package NanoCouseJava;
+
 import java.util.HashMap;
 
 public class Maps {

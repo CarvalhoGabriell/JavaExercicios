@@ -1,3 +1,5 @@
+package NanoCouseJava;
+
 public class Carro {
 
     private String modelo;

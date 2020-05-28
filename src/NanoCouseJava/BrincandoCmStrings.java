@@ -1,3 +1,5 @@
+package NanoCouseJava;
+
 public class BrincandoCmStrings {
 
     public static void main(String[] args) {

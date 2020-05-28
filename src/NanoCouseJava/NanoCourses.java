@@ -1,3 +1,5 @@
+package NanoCouseJava;
+
 import java.util.Scanner;
 
 public class NanoCourses {
