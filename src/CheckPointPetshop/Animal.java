@@ -14,13 +14,11 @@ public class Animal {
 
     public String tipoDoAnimal(String tipoAnimal) {
 
-
         return this.tipoAnimal;
     }
 
 
     public String porteDoAnimal(String porteAnimal) {
-
 
         return this.porteAnimal;
     }
