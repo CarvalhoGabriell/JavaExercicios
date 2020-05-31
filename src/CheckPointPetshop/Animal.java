@@ -8,16 +8,16 @@ public class Animal {
 
 
     public void nomeDoAnimal(String nome) {
-        System.out.println("O nome do animal atendido é: "+nome);
+        System.out.println("O nome do animal atendido é: "+nome+" \n");
     }
 
     public void tipoDoAnimal(String tipo) {
-        System.out.println("O tipo do animal atendido é: "+tipo);
+        System.out.println("O tipo do animal atendido é: "+tipo+" \n");
     }
 
 
     public void porteDoAnimal(String porte) {
-        System.out.println("O porte do animal é: "+porte);
+        System.out.println("O porte do animal é: "+porte+" \n");
 
     }
 

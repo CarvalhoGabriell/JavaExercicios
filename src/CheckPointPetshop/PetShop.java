@@ -55,7 +55,7 @@ public class PetShop {
         System.out.println("O total a pagar é de "+total);
     }
 
-    
+
 
     public double getTotal() {
 
