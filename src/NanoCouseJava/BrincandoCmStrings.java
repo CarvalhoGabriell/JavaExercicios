@@ -8,7 +8,7 @@ public class BrincandoCmStrings {
         String[] linguagens = cursos.split(",");
 
         for (String cursosSeparados : linguagens) {
-            System.out.println("A lista de linguagens é: "+cursosSeparados);
+            System.out.println(cursosSeparados);
         }
 
 

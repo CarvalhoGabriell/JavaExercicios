@@ -7,20 +7,18 @@ public class Animal {
     private String tipoAnimal;
 
 
-    public String nomeDoAnimal(String nome) {
-
-        return this.nome;
+    public void nomeDoAnimal(String nome) {
+        System.out.println("O nome do animal atendido é: "+nome);
     }
 
-    public String tipoDoAnimal(String tipoAnimal) {
-
-        return this.tipoAnimal;
+    public void tipoDoAnimal(String tipo) {
+        System.out.println("O tipo do animal atendido é: "+tipo);
     }
 
 
-    public String porteDoAnimal(String porteAnimal) {
+    public void porteDoAnimal(String porte) {
+        System.out.println("O porte do animal é: "+porte);
 
-        return this.porteAnimal;
     }
 
 
