@@ -8,19 +8,21 @@ public class Animal {
 
 
     public void nomeDoAnimal(String nome) {
-        System.out.println("O nome do animal atendido é: "+nome+" \n");
+        System.out.println("O nome do animal atendido é: "+nome.toUpperCase()+" \n");
+        setNome(nome);
     }
 
     public void tipoDoAnimal(String tipo) {
-        System.out.println("O tipo do animal atendido é: "+tipo+" \n");
+
+        System.out.println("O tipo do animal atendido é: "+tipo.toUpperCase()+" \n");
+        setTipoDoanimal(tipo);
     }
 
 
     public void porteDoAnimal(String porte) {
-        System.out.println("O porte do animal é: "+porte+" \n");
-
+        System.out.println("O porte do animal é: "+porte.toUpperCase()+" \n");
+        setPorteAnimal(porte);
     }
-
 
 
     public String getNome() {

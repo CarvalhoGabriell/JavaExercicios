@@ -17,13 +17,13 @@ public class PetShop {
 
 
 
-    public void banhoNoAnimal(String porte) {
-        if(porte.equals("pequeno".toLowerCase())) {
+    public void banhoNoAnimal(Animal animal) {
+        if(animal.getPorteAnimal().equals("pequeno".toLowerCase())) {
             System.out.println("O valor do banho é R$ 40,00 reais");
             this.valor = 40;
             total = total + valor;
 
-        }else if (porte.equals("medio".toLowerCase())){
+        }else if (animal.getPorteAnimal().equals("medio".toLowerCase())){
             System.out.println("O valor do banho fica em R$ 50,00 reais");
             this.valor = 50;
             total = total + valor;
@@ -36,9 +36,9 @@ public class PetShop {
     }
 
 
-    public void vacinarAnimal(String tipoAnimal) {
+    public void vacinarAnimal(Animal animal) {
 
-        if(tipoAnimal.equals(("cachorro")) || tipoAnimal.equals(("gato")))
+        if(animal.getTipoDoanimal().equals(("cachorro")) || animal.getTipoDoanimal().equals(("gato")))
         {
             System.out.println("O valor da vacina para cachorro ou gato é de R$ 100,00 reais");
             this.total = 100;
@@ -52,9 +52,8 @@ public class PetShop {
 
 
     public void exibirTotalApagar() {
-        System.out.println("O total a pagar é de "+total);
+        System.out.println("O total a pagar é de "+"\033[1:33m"+total+"\033[0:0m");
     }
-
 
 
     public double getTotal() {
